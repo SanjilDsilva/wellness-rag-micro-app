@@ -1,1 +1,155 @@
-
+[
+  {
+    "title": "Surya Namaskar",
+    "category": "asana",
+    "description": "Surya Namaskar, or Sun Salutation, is a dynamic sequence of yoga postures practiced in a flow.",
+    "benefits": "Improves flexibility, boosts circulation, energizes the body, and enhances mental clarity.",
+    "contraindications": "Avoid during recent surgery, severe back pain, or uncontrolled high blood pressure.",
+    "level": "beginner",
+    "source": "Yoga Journal"
+  },
+  {
+    "title": "Tadasana",
+    "category": "asana",
+    "description": "Tadasana, or Mountain Pose, is a foundational standing posture focusing on alignment and balance.",
+    "benefits": "Improves posture, strengthens legs, and increases body awareness.",
+    "contraindications": "People with balance issues should practice with support.",
+    "level": "beginner",
+    "source": "Iyengar Yoga"
+  },
+  {
+    "title": "Vrikshasana",
+    "category": "asana",
+    "description": "Vrikshasana, or Tree Pose, is a balancing posture that promotes focus and stability.",
+    "benefits": "Improves balance, strengthens legs, and enhances concentration.",
+    "contraindications": "Avoid if experiencing vertigo or severe knee pain.",
+    "level": "beginner",
+    "source": "Art of Living"
+  },
+  {
+    "title": "Bhujangasana",
+    "category": "asana",
+    "description": "Bhujangasana, or Cobra Pose, is a gentle backbend that opens the chest and strengthens the spine.",
+    "benefits": "Improves spinal flexibility and posture, opens lungs.",
+    "contraindications": "Avoid during pregnancy or recent spinal injury.",
+    "level": "beginner",
+    "source": "Yoga International"
+  },
+  {
+    "title": "Balasana",
+    "category": "asana",
+    "description": "Balasana, or Child’s Pose, is a resting posture used for relaxation and recovery.",
+    "benefits": "Calms the mind, relieves back tension, and reduces stress.",
+    "contraindications": "Avoid with severe knee injuries.",
+    "level": "beginner",
+    "source": "Yoga Alliance"
+  },
+  {
+    "title": "Shavasana",
+    "category": "asana",
+    "description": "Shavasana, or Corpse Pose, is a relaxation posture practiced at the end of yoga sessions.",
+    "benefits": "Promotes deep relaxation, reduces stress, and integrates practice benefits.",
+    "contraindications": "None when practiced comfortably.",
+    "level": "beginner",
+    "source": "Yoga Journal"
+  },
+  {
+    "title": "Paschimottanasana",
+    "category": "asana",
+    "description": "A seated forward bend focusing on spinal lengthening and calmness.",
+    "benefits": "Stretches the spine, calms the nervous system.",
+    "contraindications": "Avoid with severe lower back pain or disc issues.",
+    "level": "intermediate",
+    "source": "Iyengar Yoga"
+  },
+  {
+    "title": "Adho Mukha Svanasana",
+    "category": "asana",
+    "description": "Downward-Facing Dog is a foundational pose combining strength and stretch.",
+    "benefits": "Strengthens arms and legs, improves circulation.",
+    "contraindications": "Avoid with wrist injuries or severe shoulder pain.",
+    "level": "beginner",
+    "source": "Yoga Journal"
+  },
+  {
+    "title": "Nadi Shodhana",
+    "category": "pranayama",
+    "description": "Alternate nostril breathing that balances the nervous system.",
+    "benefits": "Reduces stress, improves focus, balances energy.",
+    "contraindications": "Avoid during severe nasal congestion.",
+    "level": "beginner",
+    "source": "Yoga International"
+  },
+  {
+    "title": "Bhramari Pranayama",
+    "category": "pranayama",
+    "description": "A breathing technique involving humming during exhalation.",
+    "benefits": "Calms the mind, reduces anxiety, improves concentration.",
+    "contraindications": "Avoid with active ear infections.",
+    "level": "beginner",
+    "source": "AYUSH Ministry"
+  },
+  {
+    "title": "Ujjayi Breathing",
+    "category": "pranayama",
+    "description": "A slow, controlled breathing technique often used in yoga flows.",
+    "benefits": "Enhances focus, regulates breath, supports mindful movement.",
+    "contraindications": "Avoid forceful breathing if dizziness occurs.",
+    "level": "beginner",
+    "source": "Yoga Journal"
+  },
+  {
+    "title": "Kapalbhati",
+    "category": "pranayama",
+    "description": "A breathing technique involving active exhalations.",
+    "benefits": "Improves digestion awareness and energizes the body.",
+    "contraindications": "Avoid during pregnancy or recent surgery.",
+    "level": "intermediate",
+    "source": "Patanjali Yogpeeth"
+  },
+  {
+    "title": "Yoga Nidra",
+    "category": "wellness",
+    "description": "A guided relaxation practice inducing deep rest.",
+    "benefits": "Reduces stress, supports emotional balance, improves rest.",
+    "contraindications": "None when practiced gently.",
+    "level": "all",
+    "source": "Yoga Alliance"
+  },
+  {
+    "title": "Mindfulness Meditation",
+    "category": "wellness",
+    "description": "A practice of observing thoughts and sensations without judgment.",
+    "benefits": "Improves emotional regulation and awareness.",
+    "contraindications": "Those with severe trauma should practice with guidance.",
+    "level": "all",
+    "source": "Mindful.org"
+  },
+  {
+    "title": "Body Scan Relaxation",
+    "category": "wellness",
+    "description": "A technique bringing attention to different body parts to release tension.",
+    "benefits": "Promotes relaxation and body awareness.",
+    "contraindications": "None known.",
+    "level": "all",
+    "source": "Harvard Health"
+  },
+  {
+    "title": "Beginner Yoga Practice",
+    "category": "wellness",
+    "description": "A gentle yoga approach focusing on basic postures and breath awareness.",
+    "benefits": "Builds foundation safely and improves confidence.",
+    "contraindications": "Modify poses if discomfort arises.",
+    "level": "beginner",
+    "source": "Yoga Alliance"
+  },
+  {
+    "title": "Advanced Yoga Practice",
+    "category": "wellness",
+    "description": "Advanced practice involves complex postures requiring strength and flexibility.",
+    "benefits": "Enhances physical capability and focus.",
+    "contraindications": "Not recommended without prior experience or guidance.",
+    "level": "advanced",
+    "source": "Yoga Journal"
+  }
+]
