@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from dotenv import load_dotenv
+from fastapi.middleware.cors import CORSMiddleware
 from pathlib import Path
 
 from backend.db import init_db, log_interaction
@@ -12,6 +13,13 @@ env_path = Path(__file__).resolve().parent.parent / ".env"
 load_dotenv(dotenv_path=env_path)
 
 app = FastAPI(title="Wellness RAG Micro-App")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # fine for assignment/demo
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.on_event("startup")

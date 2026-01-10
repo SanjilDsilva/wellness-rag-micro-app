@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wellness RAG Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <h1>Wellness Assistant</h1>
+      <p class="subtitle">
+        Ask gentle questions about yoga, breathing, or daily wellness.
+      </p>
+
+      <textarea
+        id="question"
+        rows="3"
+        placeholder="For example: What are the benefits of Surya Namaskar?"
+      ></textarea>
+
+      <button onclick="askQuestion()">Ask</button>
+
+      <div id="answer" class="answer"></div>
+      <ul id="sources" class="sources"></ul>
+    </div>
+  </div>
+
+  <script>
+    async function askQuestion() {
+      const question = document.getElementById("question").value.trim();
+      if (!question) return;
+
+      document.getElementById("answer").innerText = "Thinking…";
+      document.getElementById("sources").innerHTML = "";
+
+      try {
+        const res = await fetch("http://127.0.0.1:8000/ask", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question })
+        });
+
+        const data = await res.json();
+
+        document.getElementById("answer").innerText = data.answer;
+
+        if (data.sources && data.sources.length > 0) {
+          const ul = document.getElementById("sources");
+          data.sources.forEach(src => {
+            const li = document.createElement("li");
+            li.innerText = `${src.title} — ${src.source}`;
+            ul.appendChild(li);
+          });
+        }
+
+      } catch (err) {
+        document.getElementById("answer").innerText =
+          "Something went wrong. Please try again.";
+      }
+    }
+  </script>
+
+</body>
+</html>
